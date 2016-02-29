@@ -1,8 +1,9 @@
 package replacements
 
 import (
-	lazlo "github.com/djosephsen/lazlo/lib"
 	"strings"
+
+	lazlo "github.com/src-d/lazlo/lib"
 )
 
 var Help = &lazlo.Module{

@@ -3,12 +3,12 @@ Modules for Lazlo
 
 Usage
 -----
-Load from within djosephsen/lazlo's loadmodules.go. For more instructions read [the docs](http://github.com/djosephsen/lazlo).
+Load from within src-d/lazlo's loadmodules.go. For more instructions read [the docs](http://github.com/src-d/lazlo).
 
 List of modules
 -----
 
-* **From djosephsen/slacker** (**Note**: These are migrations of original work of other authors. Authorship commented in each of the modules' code.)
+* **From src-d/slacker** (**Note**: These are migrations of original work of other authors. Authorship commented in each of the modules' code.)
   * *Bacon*: listens for 'bacon', responds with 'MMMMMMmmmm... omgbacon'
   * *Gifme*: "%BOTNAME% gif me freddie mercury": returns a random rated:PG gif of freddy mercury via the giphy API
   * *IKR (I know, RIGHT?!)*: listens for enthusiasm; responds with validation
@@ -18,5 +18,5 @@ List of modules
   * *GoDoc*: Searchs godoc.org and displays the first 10 results.
 
 
-* **Replacements to djosephsen/lazlo/modules**:
-  * *Help*: "%BOTNAME% help": prints the usage information of every registered plugin (requires to de-register djosephsen's original help module).
+* **Replacements to src-d/lazlo/modules**:
+  * *Help*: "%BOTNAME% help": prints the usage information of every registered plugin (requires to de-register src-d's original help module).

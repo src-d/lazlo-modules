@@ -3,9 +3,10 @@ package ported
 
 import (
 	"fmt"
-	lazlo "github.com/djosephsen/lazlo/lib"
-	"github.com/fabioxgn/go-bot/web"
 	"net/url"
+
+	"github.com/fabioxgn/go-bot/web"
+	lazlo "github.com/src-d/lazlo/lib"
 )
 
 const (

@@ -5,8 +5,8 @@ import (
 
 	"strings"
 
-	lazlo "github.com/djosephsen/lazlo/lib"
 	"github.com/klaidliadon/dice"
+	lazlo "github.com/src-d/lazlo/lib"
 )
 
 var Roll = &lazlo.Module{

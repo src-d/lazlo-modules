@@ -1,12 +1,13 @@
-// Ported from djosephsen/slacker
+// Ported from src-d/slacker
 package ported
 
 import (
 	"encoding/json"
 	"fmt"
-	lazlo "github.com/djosephsen/lazlo/lib"
 	"net/http"
 	"net/url"
+
+	lazlo "github.com/src-d/lazlo/lib"
 )
 
 type gifyout struct {

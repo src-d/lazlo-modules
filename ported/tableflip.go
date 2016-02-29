@@ -1,8 +1,8 @@
-// Ported from djosephsen/slacker
+// Ported from src-d/slacker
 package ported
 
 import (
-	lazlo "github.com/djosephsen/lazlo/lib"
+	lazlo "github.com/src-d/lazlo/lib"
 )
 
 var Tableflip = &lazlo.Module{

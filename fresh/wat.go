@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	lazlo "github.com/djosephsen/lazlo/lib"
 	"github.com/sadbox/mediawiki"
+	lazlo "github.com/src-d/lazlo/lib"
 )
 
 var Wat = &lazlo.Module{

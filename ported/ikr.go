@@ -1,11 +1,12 @@
-// Ported from djosephsen/slacker
+// Ported from src-d/slacker
 package ported
 
 import (
-	lazlo "github.com/djosephsen/lazlo/lib"
 	"math/rand"
 	"strings"
 	"time"
+
+	lazlo "github.com/src-d/lazlo/lib"
 )
 
 var Ikr = &lazlo.Module{

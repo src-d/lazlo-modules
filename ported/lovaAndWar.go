@@ -1,4 +1,4 @@
-// Ported from djosephsen/slacker
+// Ported from src-d/slacker
 package ported
 
 import (
@@ -9,7 +9,7 @@ import (
 	"regexp"
 	"time"
 
-	lazlo "github.com/djosephsen/lazlo/lib"
+	lazlo "github.com/src-d/lazlo/lib"
 )
 
 type insult struct {
